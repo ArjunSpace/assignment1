@@ -1,0 +1,63 @@
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+   Python has vast application in various domains like Data science,Data Analytics
+ web development and Machine learning and many more, hence it is called as general purpose.
+ and it is a programming language which is human readable hence it is a high level programming language.
+
+Q2. Why is Python called a dynamically typed language?
+
+   In python the values will be stored in memory randomly irrespective of its data type and 
+variable name will bind with the memory location. There is no need to declare the data type 
+to the variable
+
+Q3. List some pros and cons of Python programming language?
+
+  	pros                               cons
+
+	1.Easy to understand              1.Indentation 
+	2.Vast applications  		    2.High memory consumption
+ 	 Ex. Data science,
+      	web development
+	3.Open source			    3.Complex multi threding
+	4.Huge set of libraries           4.Dynamically typed
+	5.Large Community                 5.Security
+
+Q4. In what all domains can we use Python?
+
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+int_num = int(input("Enter the number"))
+if int_num % 2 == 0:
+    print(int_num," is Even")
+else:
+    print(int_num, " is odd" ) 
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+		age = int(input("Enter your age"))
+
+		if age >= 18:
+   		    print("I can vote")
+		else:
+    		    print("I can't vote")
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+code:
+numbers = [12, 75, 150, 180, 145, 525, 50]
+x = 0
+for i in numbers:
+    if i % 2 == 0:
+        x += i
+print("sum of even numbers in the list is",x)         
+
+
+	
+				
+				
+				
+			
+			
