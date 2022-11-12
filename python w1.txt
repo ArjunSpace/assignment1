@@ -23,6 +23,68 @@ Q3. List some pros and cons of Python programming language?
 	5.Large Community                 5.Security
 
 Q4. In what all domains can we use Python?
+Data science, web development, gaming
+
+Q5. What are variable and how can we declare them?
+
+	Variable is name given to the memory location. Variables can be declared by following some set of rules.
+    the rules are:
+		1.Should start with the alphabet
+		2.Should not use any special character except underscore (_)
+
+Q6. How can we take an input from the user in Python?
+
+	input from user can be taken by using input() function.
+
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
+	Always a string
+
+Q8. What is type casting?
+	
+	Convertion of one data type into another data type 
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+	
+Q10. What are keywords?
+
+	key words in python are reserved words that can not be used as a variable name, function name,
+     or any other identifier.	
+     Ex: True,False,if,else etc..
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+		Indentation refers to the spaces at the beginning of a code line.
+     Where in other programming languages the indentation in code is for readability only,  
+     the indentation in Python is very important.
+
+     Python uses indentation to indicate a block of code.
+
+Q13. How can we throw some output in Python?
+
+	output can be throwned in python using print() function
+
+Q14. What are operators in Python?
+
+Arthematic operators
+
+Q15. What is difference between / and // operators?
+
+	/ is an opearator used for float division
+	// is an operator used for integer division
+	
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+
+x = "iNeuron"
+print(x*4)
 
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
