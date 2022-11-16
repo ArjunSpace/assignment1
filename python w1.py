@@ -82,8 +82,49 @@ Q13. How can we throw some output in Python?
 
 Q14. What are operators in Python?
 
-Arthematic operators
+Python Operators in general are used to perform operations on values and variables.
+These are standard symbols used for the purpose of logical and arithmetic operations
+Arthematic operators:
+ Arithmetic operators are used to performing mathematical operations like addition, subtraction, multiplication, and division.
 
+	
+Operator	Description							Syntax
+
++	        Addition: adds two operands					x + y
+–	        Subtraction: subtracts two operands				x – y
+*		Multiplication: multiplies two operands				x * y
+/		Division (float): divides the first operand by the second	x / y
+//		Division (floor): divides the first operand by the second	x // y
+%		Modulus: returns the remainder when the first operand is 
+	                 divided by the second					x % y
+**		Power: Returns first raised to power second			x ** y
+
+Comparison Operators:
+                    Comparison of Relational operators compares the values. 
+		    It either returns True or False according to the condition.
+		
+Operator	Description								Syntax
+>		Greater than: True if the left operand is greater than the right	x > y
+<		Less than: True if the left operand is less than the right		x < y
+==		Equal to: True if both operands are equal				x == y
+!=		Not equal to – True if operands are not equal				x != y
+>=		Greater than or equal to True if the left operand is
+		greater than or equal to the right					x >= y
+<=		Less than or equal to True if the left operand is less than 
+		or equal to the right							x <= y
+is 		x is the same as y							x is y
+is not		x is not the same as y							x is not y
+
+Logical Operators:
+Logical operators perform Logical AND, Logical OR, and Logical NOT operations. It is used to combine conditional statements.
+
+Operator	Description						Syntax
+and		Logical AND: True if both the operands are true		x and y
+or		Logical OR: True if either of the operands is true 	x or y
+not		Logical NOT: True if the operand is false 		not x
+
+	
+	
 Q15. What is difference between / and // operators?
 
 	/ is an opearator used for float division
@@ -122,6 +163,21 @@ True and False and True >>> False
 
 Q20. What are conditional statements in Python?
 
+	There comes situations in real life when we need to do some specific task and based on some specific conditions and,
+	we decide what should we do next. Similarly there comes a situation in programming where a specific task is to be 
+	performed if a specific condition is True. In such cases, conditional statements can be used. 
+	The following are the conditional statements provided by Python. 
+
+if
+if..else
+Nested if
+if-elif statements.
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+ These key words are used to apply various conditions to the expression. filtering can be done by these key words.
+
+
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
 		age = int(input("Enter your age"))
@@ -137,12 +193,22 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 
 code:
 numbers = [12, 75, 150, 180, 145, 525, 50]
-x = 0
+sum = 0
 for i in numbers:
     if i % 2 == 0:
-        x += i
-print("sum of even numbers in the list is",x)         
+        sum += i
+print("sum of even numbers in the list is",sum) 
 
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+num1,num2,num3 = input("Enter the 3 values").split()
+if num1 > num2 and num1 > num3:
+  print(num1,"is the largest number ")
+elif num2 > num1 and num2 > num3:
+   print(num2,"is the largest number ")
+else:
+  print(num3,"is the largest number")
 
 	
 				
