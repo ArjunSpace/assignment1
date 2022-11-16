@@ -232,13 +232,15 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 numbers = [12, 75, 150, 180, 145, 525, 50]
 list = []
 for i in numbers:
-  if i % 5 == 0:
-    if i > 150:
-      continue
+  if i > 150:
+    
     if i > 500:
       break
+    continue
+  if i % 5 == 0:
     list.append(i)
 print(list)   
+   
 
 				
 				
