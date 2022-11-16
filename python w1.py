@@ -229,8 +229,17 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+list = []
+for i in numbers:
+  if i % 5 == 0:
+    if i > 150:
+      continue
+    if i > 500:
+      break
+    list.append(i)
+print(list)   
 
-	
 				
 				
 				
