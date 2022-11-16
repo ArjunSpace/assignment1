@@ -202,13 +202,33 @@ print("sum of even numbers in the list is",sum)
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
 
-num1,num2,num3 = input("Enter the 3 values").split()
+num1,num2,num3 = input("Enter 3 values").split()
 if num1 > num2 and num1 > num3:
   print(num1,"is the largest number ")
 elif num2 > num1 and num2 > num3:
    print(num2,"is the largest number ")
 else:
   print(num3,"is the largest number")
+
+
+       OR
+
+def maximum(a, b, c):
+    list = [a, b, c]
+    return max(list)
+
+print(maximum(1,2,3))
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
 
 	
 				
